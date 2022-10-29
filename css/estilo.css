@@ -1,3 +1,5 @@
+*{Font-family: Tahoma, Verdana, Segoe, sans-serif;}
+
 body {
     background-image: url(../imagens/fundo.jpg);
 }
@@ -21,7 +23,7 @@ p {
     background-color: rgba(0, 0, 0, 0);
 }
 
-#center {text-align: center;}
+.center {text-align: center;}
 
 .icon {padding-left: 0px;
        padding-right: 15px;
@@ -31,4 +33,27 @@ p {
        background-size: cover;}
 
 .infoplanet {border-radius: 35px;
-    background-color: rgba(5, 13, 56, 0.53)}
+    background-color: rgba(5, 13, 56, 0.53);
+    text-align: center;}
+
+.link {background-color: rgba(51, 7, 92, 0.692);
+       color: rgb(157, 87, 223);}
+
+.transp {background-color: rgb(0, 0, 0, 0);
+        text-align: center;}
+
+.titulo {color: antiquewhite;}
+
+.fonte {display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 10px;
+    text-align: right;
+    background-color: rgba(0, 0, 0, 0);}
+
+.borda {border: rgb(35, 26, 66) solid 8px;
+        border-radius: 12px;}
+
+.bordabaixa {border: rgb(35, 26, 66) solid 8px;
+    border-bottom: rgba(0, 0, 0, 0) solid 8px;
+
+    border-radius: 12px;}
