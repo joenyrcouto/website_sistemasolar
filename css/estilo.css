@@ -42,7 +42,7 @@ p {
 .transp {background-color: rgb(0, 0, 0, 0);
         text-align: center;}
 
-.titulo {color: antiquewhite;}
+.titulo {color: rgb(255, 255, 255);}
 
 .fonte {display: grid;
     grid-template-columns: 1fr 1fr 1fr;
@@ -57,3 +57,15 @@ p {
     border-bottom: rgba(0, 0, 0, 0) solid 8px;
 
     border-radius: 12px;}
+
+.botao {border-radius: 10px;
+        background-color: #11111b;
+        border-color: rgba(4, 0, 56, 0.836);
+        text-decoration: none;
+        height: 100%;
+        width: 100%;}
+
+.letrabotao {color: white;
+            text-decoration: none;
+            font-size: 20px;
+        }
