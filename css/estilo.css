@@ -25,7 +25,7 @@ p {
 
 .blocos2 {
     display: grid;
-    grid-template-columns: 0.3fr 0.4fr 0.3fr;
+    grid-template-columns: 0.3fr 0.7fr;
     gap: 0px;
     background-color: rgba(0, 0, 0, 0);
 }
