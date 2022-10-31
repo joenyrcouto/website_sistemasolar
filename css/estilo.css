@@ -25,13 +25,6 @@ p {
     background-color: rgba(0, 0, 0, 0);
 }
 
-.blocos2 {
-    display: grid;
-    grid-template-columns: 0.3fr 0.7fr;
-    gap: 0px;
-    background-color: rgba(0, 0, 0, 0);
-}
-
 .center {text-align: center;}
 
 .icon {padding-left: 0px;
@@ -73,6 +66,7 @@ p {
         text-decoration: none;
         height: 100%;
         width: 100%;}
+        
 
 .letrabotao {color: white;
             text-decoration: none;
